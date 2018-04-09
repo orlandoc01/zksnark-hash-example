@@ -1,0 +1,2 @@
+let g:ale_cpp_clang_options = '-std=c++11 -Wall -I ./depends/libsnark/depends/libff -I ./depends/libsnark CURVE_BN128=1'
+let g:ale_cpp_gcc_options = '-std=c++11 -Wall -I ./depends/libsnark/depends/libff -I ./depends/libsnark CURVE_BN128=1'
